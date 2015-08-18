@@ -2,6 +2,8 @@ Multiplicative Recursive Neural Network
 ===================
 
 C++/Cuda implementation of Multiplicative Recursive Neural Network for sentiment analysis on GPU
+Sources: 
+http://nlp.stanford.edu/sentiment/ & http://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf
 
 #run these in CLI to configure nnvc CUDA compiler driver for osx after cuda installation:
 ```
