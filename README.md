@@ -17,9 +17,10 @@ make
 ./network trees
 ```
 
-Sources: http://nlp.stanford.edu/sentiment/
-		 http://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf 
+Sources: 
+http://nlp.stanford.edu/sentiment/
+
+http://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf 
 
 #warning:
-will segfault if gpu memory is not large enough
-	uncomment "checkCudaErrors(cudaGetLastError())" in line 79 of "kernel.cu" to stop program with "error=9" warning as opposed to attempting to run all the way through on small gpu
+will segfault if gpu memory is not large enough; might want uncomment "checkCudaErrors(cudaGetLastError())" in line 79 of "kernel.cu" to stop program with "error=9" warning as opposed to attempting to run all the way through on small gpu
