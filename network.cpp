@@ -12,11 +12,11 @@ int main(int argc, char** argv) {
     std::string trainingPath = treeDirectory + "/train.txt";
     std::string developmentPath = treeDirectory + "/dev.txt";
     
-    //model parameters
-    int wordVecDim = 32;  //Word Vector Dimensions
-    int nClasses = 5;   //number of Sentiment Classes
+    // model parameters
+    int wordVecDim = 32;  // Word Vector Dimensions
+    int nClasses = 5;   // number of Sentiment Classes
 
-    //training parameters
+    // training parameters
     sliderOptions_t options = {
         trainingPath,
         developmentPath,
